@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyToWordConversion", "MoneyToWordConversion\MoneyToWordConversion.csproj", "{C893F0F2-B602-456B-A9E4-6B9D4A5F9BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyToWordConversion.Test", "MoneyToWordConversion.Test\MoneyToWordConversion.Test.csproj", "{3F27CF91-910D-481A-A8E4-A986BCBB5CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C893F0F2-B602-456B-A9E4-6B9D4A5F9BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C893F0F2-B602-456B-A9E4-6B9D4A5F9BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C893F0F2-B602-456B-A9E4-6B9D4A5F9BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C893F0F2-B602-456B-A9E4-6B9D4A5F9BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F27CF91-910D-481A-A8E4-A986BCBB5CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F27CF91-910D-481A-A8E4-A986BCBB5CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F27CF91-910D-481A-A8E4-A986BCBB5CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F27CF91-910D-481A-A8E4-A986BCBB5CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D6AB49-5343-46AC-BC9D-71F66C5F5718}
+	EndGlobalSection
+EndGlobal
