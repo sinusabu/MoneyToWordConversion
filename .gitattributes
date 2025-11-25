@@ -1,0 +1,42 @@
+# Enforce consistent line endings
+* text=auto
+
+# C# source files - always use CRLF on Windows
+*.cs text eol=crlf
+
+# Config and script files - use LF
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Markdown and documentation - LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# Solution and project files (Visual Studio)
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.props text eol=crlf
+*.targets text eol=crlf
+
+# Binary files - don't diff/merge
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+
+# Prevent Git from trying to diff designer files
+*.Designer.cs text eol=crlf
+
+# SQL scripts - LF
+*.sql text eol=lf
